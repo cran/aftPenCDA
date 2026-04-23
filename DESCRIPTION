@@ -1,6 +1,6 @@
 Package: aftPenCDA
-Title: Penalized AFT Estimation via Coordinate Descent
-Version: 0.1.0
+Title: Estimating Penalized AFT Models via Coordinate Descent
+Version: 0.1.1
 Authors@R: c(
     person(given = "Suyeon", family = "Seon",
            role = c("aut", "cre"),
@@ -39,12 +39,14 @@ Imports: Rcpp, stats
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+Depends: R (>= 3.5)
+LazyData: true
 NeedsCompilation: yes
-Packaged: 2026-04-02 05:20:29 UTC; seonsuyeon
+Packaged: 2026-04-23 02:57:34 UTC; seonsuyeon
 Author: Suyeon Seon [aut, cre],
   Taehwa Choi [aut],
   Dipankar Bandyopadhyay [aut],
   Dongha Kim [aut],
   Seongoh Park [aut]
 Repository: CRAN
-Date/Publication: 2026-04-07 07:40:21 UTC
+Date/Publication: 2026-04-23 05:10:29 UTC
